@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Script by Yono Irenk (Kartolo)
+# Keluarga EDY
+# Youtube Aryo Brokolly
 
 from argparse import ArgumentParser
 from huawei_lte_api.Connection import Connection
