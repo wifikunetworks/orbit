@@ -34,6 +34,8 @@ finish(){
     echo "Please Configuration Conn Monitor (firmware reyre)"
     echo ""
     echo ""
+    echo "Script by kartolo"
+    echo "Package Install by Aryo Brokolly"
 }
 
 download_files()
