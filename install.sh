@@ -7,9 +7,16 @@ install_update(){
 echo "Update and install prerequisites"
 clear
 opkg update
+sleep 1
+clear
 opkg install python3-pip
+sleep 1
+clear
 pip3 install requests
+sleep 1
+clear
 pip3 install huawei-lte-api
+sleep 1
 }
 
 finish(){
