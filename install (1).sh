@@ -2,7 +2,6 @@
 # Installation script by ARYO.
 
 DIR=/usr/bin
-DIR2=/etc/init.d
 
 
 
@@ -17,16 +16,15 @@ finish(){
 #    echo "2. The interface representing the LTE connection is set to 'wwan0'."
 #    echo "   To change the interface, please edit the line INTERFACE='wwan0' in the 'restart-interface.sh'."
     echo ""
-    echo "Next configuration firewall, etc !"
+    echo "Please Configuration Conn Monitor (firmware reyre)"
 }
 
 download_files()
 {
-    	touch $DIR/logtailscale.txt
   	echo "Downloading files from repo..."
-   	wget -O $DIR/tailscale https://raw.githubusercontent.com/aryobrokolly/tailscale/main/usr/bin/tailscale && chmod +x $DIR/tailscale
- 	wget -O $DIR/tailscaled https://raw.githubusercontent.com/aryobrokolly/tailscale/main/usr/bin/tailscaled && chmod +x $DIR/tailscaled
-  	wget -O $DIR2/tailscale https://raw.githubusercontent.com/aryobrokolly/tailscale/main/etc/init.d/tailscale && chmod +x $DIR2/tailscale
+   	wget -O $DIR/mbit https://raw.githubusercontent.com/aryobrokolly/ngebit/main/usr/bin/mbit && chmod +x $DIR/mbit
+ 	wget -O $DIR/band.py https://raw.githubusercontent.com/aryobrokolly/ngebit/main/usr/bin/band.py && chmod +x $DIR/band.py
+ 	wget -O $DIR/ip.py https://raw.githubusercontent.com/aryobrokolly/ngebit/main/usr/bin/ip.py && chmod +x $DIR/ip.py
     	finish
 }
 
