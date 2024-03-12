@@ -4,11 +4,11 @@
 DIR=/usr/bin
 
 install_update(){
+clear
 opkg update
 opkg install python3-pip
 pip3 install requests
 pip3 install huawei-lte-api
-clear
 }
 
 finish(){
