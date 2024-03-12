@@ -4,6 +4,7 @@
 DIR=/usr/bin
 
 install_update(){
+echo "Update and install prerequisites"
 clear
 opkg update
 opkg install python3-pip
@@ -37,7 +38,7 @@ download_files()
 }
 
 echo ""
-echo "Instal perenquities ."
+echo "Instal prerequisites."
 while true; do
     read -p "Do you want to continue (y/n)? " yn
     case $yn in
