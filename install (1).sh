@@ -32,7 +32,7 @@ echo ""
 echo "Aryo Install Script code from repo."
 
 while true; do
-    read -p "This will download the files into $DIR and $DIR2. Do you want to continue (y/n)? " yn
+    read -p "This will download the files into $DIR. Do you want to continue (y/n)? " yn
     case $yn in
         [Yy]* ) download_files; break;;
         [Nn]* ) exit;;
