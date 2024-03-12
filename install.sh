@@ -30,7 +30,6 @@ finish(){
 #    echo ""  
 #    echo "2. The interface representing the LTE connection is set to 'wwan0'."
 #    echo "   To change the interface, please edit the line INTERFACE='wwan0' in the 'restart-interface.sh'."
-    echo ""
     echo "Please Configuration Conn Monitor (firmware reyre)"
     echo ""
     echo "Script by kartolo"
