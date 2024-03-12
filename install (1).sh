@@ -3,7 +3,13 @@
 
 DIR=/usr/bin
 
-
+install_update(){
+opkg update
+opkg install python3-pip
+pip3 install requests
+pip3 install huawei-lte-api
+clear
+}
 
 finish(){
 	clear
@@ -31,7 +37,17 @@ download_files()
 }
 
 echo ""
-echo "Aryo Install Script code from repo."
+echo "Instal perenquities ."
+while true; do
+    read -p "Do you want to continue (y/n)? " yn
+    case $yn in
+        [Yy]* ) install_update; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer 'y' or 'n'.";;
+    esac
+done
+
+echo ""
 
 while true; do
     read -p "This will download the files into $DIR. Do you want to continue (y/n)? " yn
