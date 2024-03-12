@@ -1,0 +1,20 @@
+#!/bin/bash
+
+DOR=/usr/bin
+
+username="admin"
+password="admin123"
+router_ip="192.168.8.1"
+
+echo "script change ip WAN..."
+echo "Waiting tesno..."
+echo "────────────────────────"
+echo ""
+python3 $DOR/ip.py http://${username}:${password}@${router_ip}/
+python3 $DOR/band.py http://${username}:${password}@${router_ip}/ --mode 4g --lteband 8 > /dev/null 2>&1
+echo "starting change ip..."
+echo ""
+python3 $DOR/band.py http://${username}:${password}@${router_ip}/ --mode 4g --lteband 3 > /dev/null 2>&1
+python3 $DOR/ip.py http://${username}:${password}@${router_ip}/
+echo "successful change ip..."
+echo ""
