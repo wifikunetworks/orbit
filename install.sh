@@ -32,6 +32,8 @@ finish(){
 #    echo "   To change the interface, please edit the line INTERFACE='wwan0' in the 'restart-interface.sh'."
     echo ""
     echo "Please Configuration Conn Monitor (firmware reyre)"
+    echo ""
+    echo ""
 }
 
 download_files()
