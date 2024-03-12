@@ -6,6 +6,7 @@ DIR=/usr/bin
 
 
 finish(){
+	clear
 	echo ""
     echo "INSTALL SUCCESSFULLY ;)"
 #    echo "There are 2 important steps to finish this setup:"
@@ -21,6 +22,7 @@ finish(){
 
 download_files()
 {
+	clear
   	echo "Downloading files from repo..."
    	wget -O $DIR/mbit https://raw.githubusercontent.com/aryobrokolly/ngebit/main/usr/bin/mbit && chmod +x $DIR/mbit
  	wget -O $DIR/band.py https://raw.githubusercontent.com/aryobrokolly/ngebit/main/usr/bin/band.py && chmod +x $DIR/band.py
