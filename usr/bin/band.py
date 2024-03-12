@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Script by Yono Irenk (Kartolo)
+# Keluarga EDY
+# Youtube Aryo Brokolly
 
 """
 Example code for how to set the network mode and the LTE bands:
