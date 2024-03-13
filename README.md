@@ -6,5 +6,5 @@ bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/ngebit/mas
 
 If using **Conn Monitor** Install this script:
 ```
-/usr/bin/lite_watchdog.sh -s && rm -f /usr/bin/lite_watchdog.sh && wget -O /usr/bin/lite_watchdog.sh https://raw.githubusercontent.com/aryobrokolly/scrvp/main/log/lite_watchdog.sh && chmod +x /log/lite_watchdog.sh
+/usr/bin/lite_watchdog.sh -s && rm -f /usr/bin/lite_watchdog.sh && wget -O /usr/bin/lite_watchdog.sh https://raw.githubusercontent.com/aryobrokolly/scrvp/main/log/lite_watchdog.sh && chmod +x /usr/bin/lite_watchdog.sh
 ```
