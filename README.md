@@ -1,7 +1,7 @@
 # Auto Ganti IP Modem ORBIT
 <br>
 Ubah Password Modem Orbitmu<br>
-password="admin123"
+password="indonesia"
 <br><br><br>
 
 Run Install this:
