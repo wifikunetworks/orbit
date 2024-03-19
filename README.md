@@ -11,5 +11,5 @@ bash -c "$(wget -qO - 'https://raw.githubusercontent.com/wifikunetworks/orbit/ma
 
 If using **Conn Monitor** Install this script:
 ```
-rm -f /usr/bin/lite_watchdog.sh && wget -O /usr/bin/lite_watchdog.sh https://raw.githubusercontent.com/wifikunetworks/scrvp/main/log/lite_watchdog.sh && chmod +x /usr/bin/lite_watchdog.sh
+rm -f /usr/bin/lite_watchdog.sh && wget -O /usr/bin/lite_watchdog.sh https://raw.githubusercontent.com/wifikunetworks/orbit/main/lite_watchdog.sh && chmod +x /usr/bin/lite_watchdog.sh
 ```
