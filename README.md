@@ -6,7 +6,7 @@ password="indonesia"
 
 Run Install this:
 ```
-bash -c "$(wget -qO - 'https://raw.githubusercontent.com/wifikunetworks/ngebit/master/install.sh')"
+bash -c "$(wget -qO - 'https://raw.githubusercontent.com/wifikunetworks/orbit/master/install.sh')"
 ```
 
 If using **Conn Monitor** Install this script:
