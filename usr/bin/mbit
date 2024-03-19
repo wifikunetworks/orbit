@@ -6,7 +6,7 @@
 DOR=/usr/bin
 
 username="admin"
-password="admin123"
+password="indonesia"
 router_ip="192.168.8.1"
 
 echo "script change ip WAN..."
