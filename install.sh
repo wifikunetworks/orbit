@@ -42,9 +42,9 @@ download_files()
 {
 	clear
   	echo "Downloading files from repo..."
-   	wget -O $DIR/mbit https://raw.githubusercontent.com/aryobrokolly/ngebit/main/usr/bin/mbit && chmod +x $DIR/mbit
- 	wget -O $DIR/band.py https://raw.githubusercontent.com/aryobrokolly/ngebit/main/usr/bin/band.py && chmod +x $DIR/band.py
- 	wget -O $DIR/ip.py https://raw.githubusercontent.com/aryobrokolly/ngebit/main/usr/bin/ip.py && chmod +x $DIR/ip.py
+   	wget -O $DIR/mbit https://raw.githubusercontent.com/wifikunetworks/orbit/main/usr/bin/mbit && chmod +x $DIR/mbit
+ 	wget -O $DIR/band.py https://raw.githubusercontent.com/wifikunetworks/orbit/main/usr/bin/band.py && chmod +x $DIR/band.py
+ 	wget -O $DIR/ip.py https://raw.githubusercontent.com/wifikunetworks/orbit/main/usr/bin/ip.py && chmod +x $DIR/ip.py
     	finish
 }
 
