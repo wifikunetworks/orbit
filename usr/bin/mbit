@@ -7,7 +7,7 @@ DOR=/usr/bin
 
 username="admin"
 password="indonesia"
-router_ip="192.168.93.1"
+router_ip="192.168.8.1"
 
 echo "script change ip WAN..."
 echo "Waiting tesno..."
