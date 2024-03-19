@@ -6,8 +6,8 @@
 """
 Example code for how to set the network mode and the LTE bands:
 
-python3 net_mode.py http://admin:PASSWORD@192.168.93.1/ --mode 4g --lteband 3 --lteband 7 --primary-lteband 7
-python3 net_mode.py http://admin:PASSWORD@192.168.93.1/ --mode auto --lteband all
+python3 net_mode.py http://admin:PASSWORD@192.168.8.1/ --mode 4g --lteband 3 --lteband 7 --primary-lteband 7
+python3 net_mode.py http://admin:PASSWORD@192.168.8.1/ --mode auto --lteband all
 
 This script tries to avoid changing any settings if the router config already matches.
 """
